@@ -38,7 +38,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>Minimal Portfolio Built with Nextjs | About Page</title>
+        <title>About</title>
         <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
         creating innovative solutions. Discover tips for building a developer portfolio and insights on 
         full-stack development, front-end development, and back-end development." />
@@ -49,7 +49,7 @@ export default function About() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Just A Guy Trying To Get Better Everyday"
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
@@ -60,15 +60,15 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>CodeBucks</strong>, a web developer and
-                UI/UX designer with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 4 years
-                of experience in the field. I am always looking for new and
-                innovative ways to bring my clients&apos; visions to life.
+                Hi, I&apos;m <strong>Conor Chepenik</strong>, a web developer, writer, and
+                UX designer with a passion for creating beautiful,
+                functional, and user-centered digital experiences. With 3 years
+                of experience in the field, I&apos;m always looking for new and
+                innovative ways to improve my skills & bring my clients&apos; visions to life.
               </p>
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
-                pretty – it&apos;s about solving problems and creating
+                pretty. It&apos;s about solving problems and creating
                 intuitive, enjoyable experiences for users.
               </p>
               <p className="font-medium">
@@ -102,31 +102,31 @@ export default function About() {
             xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={40} />+
+                  <AnimatedNumberFramerMotion value={10} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  satisfied clients
+                  Articles published
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={50} />+
+                  <AnimatedNumberFramerMotion value={550} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  projects completed
+                  days of writing on Medium
                 </h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={4} />+
+                  <AnimatedNumberFramerMotion value={3} />+
                 </span>
                 <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Years of experience
+                  Years of software experience 
                 </h2>
               </div>
             </div>

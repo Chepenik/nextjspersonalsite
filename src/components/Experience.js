@@ -62,56 +62,54 @@ const Experience = () => {
           />
           <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
             <Details
-              position="Software Engineer"
-              company="Google"
-              companyLink="https://google.com"
+              position="Lead Developer"
+              company="MassAdoption"
+              companyLink="https://massadoption.net"
               time="2022-Present"
-              address="Mountain View, CA"
-              work="Worked on a team responsible for developing new features for Google's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              address="Boston, MA."
+              work="Led the inception and launch of MassAdoption website using vanilla JavaScript, HTML, and CSS, with Hostinger for deployment. Decided in 2023 to elevate the site's performance and aesthetics through Next.js, React, and Tailwind CSS, while contributing to the development of our Bitcoin-focused LLM, Mr. Nakamoto."
             />
 
             <Details
-              position="Intern"
-              company="Facebook"
-              companyLink="https://facebook.com"
-              time="Summer 2021"
-              address="Menlo Park, CA."
-              work="Worked on a team responsible for developing a new mobile app
-              feature that allowed users to create and share short-form video
-              content, including designing and implementing a new user interface
-              and developing the backend infrastructure to support the feature."
+              position="Account Executive"
+              company="Datadog"
+              companyLink="https://www.datadoghq.com/"
+              time="2022"
+              address="Boston, MA."
+              work="Utilized LinkedIn Sales Navigator, Builtwith.com, and Zoominfo to generate personalized outreach, resulting in successful business development via cold calling, email and LinkedIn/Twitter outreach, leading to closing and onboarding of high-profile accounts such as The Block, Foodoo.ai, Transpose, Terracycle, and Usepower.com, among others.
+              Coached Sales Development Reps on strategy and best practices for business development, resulting in a 64% increase in meetings booked for SDRs, ultimately leading to more revenue generated for the company."
             />
 
             <Details
-              position="Software Developer"
-              company="Amazon"
-              companyLink="https://amazon.com"
-              time="2020-2021"
-              address="Seattle, WA."
-              work="Worked on a team responsible for developing Amazon's mobile app, including implementing new features such as product recommendations and user reviews, and optimizing the app's performance and reliability."
+              position="Business Development Team Lead"
+              company="Reveneer"
+              companyLink="https://reveneer.io/"
+              time="2020-2022"
+              address="Lexington, MA."
+              work="Promoted from Business Development Representative to Business Development Team Lead in May 2021.
+              Managed outbound sales team selling web/app development, backup software, learning management solutions, and
+              digital signage for companies like Quantum Mob, Datto, and Yodeck.
+              Spearheaded the creation of an employee intranet portal that consolidated all sales data, providing employees with easy
+              access to their career progress at Reveneer.
+              "
             />
 
             <Details
-              position="Software Developer Intern"
-              company="Microsoft"
-              companyLink="https://microsoft.com"
-              time="Summer 2019"
-              address="Redmond, WA."
-              work="Worked on a team responsible for developing new features for
-              Microsoft's Windows operating system, including implementing a new
-              user interface for a system settings panel and optimizing the
-              performance of a core system component."
+              position="Writer"
+              company="Bitcoin Magazine"
+              companyLink="https://bitcoinmagazine.com/"
+              time="2022-Present"
+              address="Global"
+              work="Just doing my part to get the world on a monetary standard backed by math and open source software instead of debt & violence."
             />
 
             <Details
-              position="Teaching Assistant"
-              company="MIT"
-              companyLink="https://mit.edu"
-              time="Fall 2018"
-              address="Massachusetts Ave, Cambridge, MA."
-              work="Assisted in teaching a course on computer programming, held office
-              hours to help students with assignments, and graded exams and
-              assignments."
+              position="Writer"
+              company="Bitcoin News"
+              companyLink="https://bitcoinnews.com/"
+              time="2023-Present"
+              address="Global"
+              work="The more places I can contribute my writing skills the better."
             />
           </ul>
         </div>

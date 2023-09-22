@@ -44,24 +44,24 @@ const Education = () => {
         />
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details
-            type="Bachelor of Science in Computer Science"
+            type="Bachelor of Arts"
             time="2016-2020"
-            place="Massachusetts Institute of Technology (MIT)"
-            info="Relevant courses included Data Structures and Algorithms, Computer Systems Engineering, and Artificial Intelligence."
+            place="Tufts University"
+            info="Studied Film & Media as well as Entrepreneurship. "
           />
 
           <Details
-            type="Master of Computer Science"
-            time="2020-2022"
-            place="Stanford University"
-            info="Completed a master's project on deep learning, developing a new neural network architecture for natural language understanding."
+            type="Coding bootcamp"
+            time="2023"
+            place="Launch Academy"
+            info="After working in software for almost three years I decided that I wanted to not just sell it but actually help builld it. I completed Launch Academy, passed all the coding requirements they sent my way and continue to improve my computer science skills everyday."
           />
 
           <Details
             type="Online Coursework"
-            time="2016-2020"
-            place="Coursera and edX"
-            info="Completed coursework in advanced topics such as Reinforcement Learning, Computer Vision, and Machine Learning Engineering."
+            time="2022"
+            place="Saylor Academy"
+            info="Completed Bitcoin for Developers on Saylor.org to improve my skills and technical understanding of the money over IP protocol."
           />
         </ul>
       </div>
