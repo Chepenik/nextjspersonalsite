@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Awesome Portfolio Built with Nextjs</title>
+        <title>Conor Chepenik</title>
         <meta
           name="description"
           content="Explore CodeBucks's Next.js developer portfolio and 
@@ -41,11 +41,11 @@ export default function Home() {
             </div>
             <div className="flex w-1/2 flex-col items-center self-center lg:w-full lg:text-center">
               <AnimatedText
-                text="Turning vision into reality with code and design."
+                text="Father, Bitcoiner, Developer, & Writer"
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              I enjoy wearing different hats. I&apos;m a skilled full-stack developer, an passionate writer, Bitcoiner, & content creator. I&apos;m all about taking cool ideas and turning them into awesome web applications.              </p>
+              I enjoy wearing different hats. My true passion lies in taking cool ideas and turning them into awesome web applications. When I&apos;m not working I enjoy spending time with my family, running, and reading great books.</p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
                   // whileHover={{
