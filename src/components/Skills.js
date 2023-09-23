@@ -53,7 +53,7 @@ const Skills = () => {
           <Skill name="Github" x="-35vw" y="-5vw" />
           <Skill name="Web Design" x="32vw" y="-5vw" />
           <Skill name="LLMs" x="0vw" y="-20vw" />
-          <Skill name="Bitcoin core" x="7vw" y="-10vw" />
+          <Skill name="Bitcoin core" x="21vw" y="-17vw" />
           <Skill name="Java" x="-25vw" y="18vw" />
           <Skill name="APIs" x="0vw" y="23vw" />
           <Skill name="Tawilwind CSS" x="28vw" y="18vw" />

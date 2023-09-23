@@ -1,5 +1,5 @@
 import AnimatedText from "@/components/AnimatedText";
-import { GithubIcon } from "@/components/Icons";
+import { GithubIcon, YoutubeIcon } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import Head from "next/head";
@@ -163,7 +163,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Modern Portfolio Built with Nextjs | Projects Page</title>
+        <title>Projects</title>
         <meta
           name="description"
           content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
@@ -177,17 +177,17 @@ export default function Projects() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Imagination Trumps Knowledge!"
+            text="Work hard, play hard, stay humble."
             className="mb-16 !text-8xl !leading-tight lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                type="Featured Project"
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+                type="The Conor Chepenik Podcast"
+                title="An interview with Texas Slim"
+                summary="I sit down with Texas Slim from The Beef Initiative. In this captivating conversation, we explore Slim's groundbreaking project that is revolutionizing the beef industry. Discover how technology is transforming beef production, challenge conventional thinking, and gain a deeper understanding of the significance of nutrition and food choices."
                 img={proj1}
-                link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
+                link="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
                 github="https://github.com/codebucks27/CryptoBucks-Final-Code"
               />
             </div>

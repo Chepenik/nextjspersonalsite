@@ -4,12 +4,12 @@ import Head from "next/head";
 import Image from "next/image";
 import blog1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import blog2 from "../../public/images/articles/create loading screen in react js.jpg";
-import blog3 from "../../public/images/articles/form validation in reactjs using custom react hook.png";
-import blog4 from "../../public/images/articles/smooth scrolling in reactjs.png";
-import blog5 from "../../public/images/articles/create modal component in react using react portals.png";
-import blog6 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
-import blog7 from "../../public/images/articles/What is Redux with easy explanation.png";
-import blog8 from "../../public/images/articles/What is higher order component in React.jpg";
+import blog3 from "../../public/images/articles/bitcoinmagazine.png";
+import blog4 from "../../public/images/articles/bitcoinmagazine.png";
+import blog5 from "../../public/images/articles/bitcoinmagazine.png";
+import blog6 from "../../public/images/articles/bitcoinnews.png";
+import blog7 from "../../public/images/articles/bitcoinnews.png";
+import blog8 from "../../public/images/articles/bitcoinnews.png";
 
 import Layout from "@/components/Layout";
 import Link from "next/link";
@@ -127,10 +127,8 @@ export default function Articles() {
   return (
     <>
       <Head>
-        <title>Simple Portfolio Built with Nextjs | Articles Page</title>
-        <meta name="description" content="Browse through CodeBucks's collection of software engineering articles and 
-        tutorials on Next.js, React.js, web development, and more. 
-        Gain valuable insights and stay up-to-date with SEO tips for building a developer portfolio." />
+        <title>Articles</title>
+        <meta name="description" content="Browse through my collection of Bitcoin & Nostr articles" />
       </Head>
       <TransitionEffect />
       <main
@@ -138,28 +136,25 @@ export default function Articles() {
       >
         <Layout className="pt-16">
           <AnimatedText
-            text="Words Can Change the World!"
-            className="!text-8xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+            text="Language is the open source code that humanity continually updates to share concepts."
+            className="!text-7xl !leading-tight mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
 
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
               img={blog1}
-              title="build a custom pagination component in reactjs from scratch"
-              time="9 min read"
-              summary="Learn how to build a custom pagination component in ReactJS from scratch. Follow this 
-              step-by-step guide to integrate Pagination component in your ReactJS project."
-              link="https://devdreaming.com/blogs/create-pagination-component-reactjs"
+              title="My Online Auto-Biography"
+              time="a long read"
+              summary="I wanted to get better at writing so I simply decided to write everyday for the rest of my life :)"
+              link="https://medium.com/@chepenikconor"
             />
 
             <FeaturedArticle
               img={blog2}
-              title="creating stunning loading screens in react: Build 3 types of loading screens"
-              time="10 min read"
-              summary="Learn how to create stunning loading screens in React with 3 different methods. 
-              Discover how to use React-Loading, React-Lottie & build a custom loading screen. Improve the 
-              user experience."
-              link="https://devdreaming.com/blogs/create-3-different-types-of-loading-screens-in-react"
+              title="Bitcoin Stops The Bleeding"
+              time="7 min read"
+              summary=" A Sound Money System Is The Only Cure For What Ails Our Economy"
+              link="https://www.zerohedge.com/crypto/bitcoin-stops-bleeding-sound-money-system-only-cure-what-ails-our-economy"
             />
           </ul>
 
@@ -169,40 +164,40 @@ export default function Articles() {
 
           <ul className="flex flex-col items-center relative">
             <Article
-              title="form validation in reactjs: build a reusable custom hook for inputs and error handling"
+              title="Bitcoin Aligns Incentives In The Perfect Way"
               img={blog3}
-              date="January 27, 2023"
-              link="https://devdreaming.com/blogs/react-form-validation-custom-hook"
+              date="Bitcoin Magazine"
+              link="https://bitcoinmagazine.com/culture/bitcoin-aligns-incentives-in-the-perfect-way"
             />
             <Article
-              title="silky smooth scrolling in reactjs: a step-by-step guide for react developers"
+              title="Bitcoin Home Birth And Sovereignty"
               img={blog4}
-              date="January 30, 2023"
-              link="https://devdreaming.com/blogs/smooth-scrolling-in-react-js"
+              date="Bitcoin Magazine"
+              link="https://bitcoinmagazine.com/culture/bitcoin-home-birth-and-sovereignty"
             />
             <Article
-              title="creating an efficient modal component in react using hooks and portals"
+              title="Regulators Must Learn To Accept The New Tech"
               img={blog5}
-              date="January 29, 2023"
-              link="https://devdreaming.com/blogs/create-efficient-modal-react-portals"
+              date="Bitcoin Magazine"
+              link="https://bitcoinmagazine.com/culture/bitcoin-tax-attacks-are-regulatory-fear"
             />
             <Article
-              title="build a fabulous todo list app with react, redux and framer-motion"
+              title="Objectivism Meets Bitcoin"
               img={blog6}
-              date="January 28, 2023"
-              link="https://devdreaming.com/blogs/build-react-redux-framer-motion-todo-app"
+              date="Bitcoin News"
+              link="https://bitcoinnews.com/objectivism-meets-bitcoin/"
             />
             <Article
-              title="redux simplified: a beginner's guide for web developers"
+              title="The US Dollar Is A Ponzi Scheme"
               img={blog7}
-              date="January 31, 2023"
-              link="https://devdreaming.com/blogs/redux-simply-explained"
+              date="Bitcoin News"
+              link="https://bitcoinnews.com/us-dolla-ponzi-scheme/"
             />
             <Article
-              title="what is higher order component (hoc) in react?"
-              date="January 4, 2023"
+              title="Nostr Protocol Lets Users Earn Bitcoin For Content"
+              date="Bitcoin News"
               img={blog8}
-              link="https://devdreaming.com/blogs/higher-order-component-hoc-react"
+              link="https://bitcoinnews.com/nostr-protocol-earn-bitcoin/"
             />
           </ul>
         </Layout>
