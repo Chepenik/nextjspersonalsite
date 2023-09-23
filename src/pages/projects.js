@@ -15,13 +15,13 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
 
-const FeaturedProject = ({ type, title, summary, img, link, github }) => {
+const FeaturedProject = ({ type, title, summary, img, link, youtube }) => {
 
   return (
     <article
       className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
-border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark  
-lg:flex-col 
+border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark
+lg:flex-col
 lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
     "
     >
@@ -66,7 +66,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
         </p>
         <div className="mt-2 flex items-center">
           <Link
-            href={github}
+            href={youtube}
             target={"_blank"}
             className="w-10"
             aria-label="Youtube Video Link"
@@ -77,7 +77,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             href={link}
             target={"_blank"}
             className="ml-4 rounded-lg
-             bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark  
+             bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark
              sm:px-4 sm:text-base
             "
             aria-label="Youtube Video Link"
@@ -90,14 +90,14 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
   );
 };
 
-const Project = ({ title, type, img, link, github }) => {
+const Project = ({ title, type, img, link, youtube }) => {
 
   return (
     <article
-      className="relative flex w-full flex-col items-center justify-center rounded-2xl  
-      rounded-br-2xl 
-      border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark  
-      xs:p-4
+      className="relative flex w-full flex-col items-center justify-center rounded-2xl
+      rounded-br-2xl
+      border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark
+      xs:p-4  
       "
     >
       <div
@@ -141,19 +141,18 @@ const Project = ({ title, type, img, link, github }) => {
             href={link}
             target={"_blank"}
             className="rounded text-lg
-            font-medium underline md:text-base
-            "
+            font-medium underline md:text-base"
             aria-label={title}
           >
             Watch
           </Link>
           <Link
-            href={github}
+            href={youtube} 
             target={"_blank"}
             className="w-8 md:w-6"
             aria-label={title}
           >
-            <YoutubeIcon /> 
+            <YoutubeIcon />
           </Link>
         </div>
       </div>
@@ -190,7 +189,7 @@ export default function Projects() {
                 summary="In this conversation, we explore Slim's groundbreaking project that is revolutionizing the beef industry. Discover how technology is transforming beef production, challenge conventional thinking, and gain a deeper understanding of the significance of nutrition and food choices."
                 img={proj1}
                 link="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
-                github="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"  
+                youtube="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -199,7 +198,7 @@ export default function Projects() {
                 title="Big Hand Wins"
                 img={proj2}
                 link="https://youtu.be/ebh3489YPA0?si=WxiPj1-gHZXmkx0X"
-                github="https://youtu.be/ebh3489YPA0?si=WxiPj1-gHZXmkx0X"
+                youtube="https://youtu.be/ebh3489YPA0?si=WxiPj1-gHZXmkx0X"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -208,7 +207,7 @@ export default function Projects() {
                 title="Creating A Simple Next.js App"
                 img={proj3}
                 link="https://youtu.be/sCcSmJzEeMQ?si=6XMn-78XMEcDkZ9n"
-                github="https://youtu.be/sCcSmJzEeMQ?si=6XMn-78XMEcDkZ9n"
+                youtube="https://youtu.be/sCcSmJzEeMQ?si=6XMn-78XMEcDkZ9n"
               />
             </div>
             <div className="col-span-12">
@@ -218,7 +217,7 @@ export default function Projects() {
                 summary="In this episode, Conor & his guest delve into various intriguing topics, including foot health, the power of Bitcoin, unmasking pain, and the profound connection between health and money."
                 img={proj4}
                 link="https://youtu.be/FD5UME_fTHs"
-                github="https://youtu.be/FD5UME_fTHs"
+                youtube="https://youtu.be/FD5UME_fTHs"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -227,7 +226,7 @@ export default function Projects() {
                 img={proj5}
                 title="Ancestral Knowledge"
                 link="https://youtu.be/HZPqlN1gjT8?si=QhtadbglSzZ77_vQ"
-                github="https://youtu.be/HZPqlN1gjT8?si=QhtadbglSzZ77_vQ"
+                youtube="https://youtu.be/HZPqlN1gjT8?si=QhtadbglSzZ77_vQ"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -236,7 +235,7 @@ export default function Projects() {
                 img={proj6}
                 title="Nostr Paradigm Shift With Marks"
                 link="https://youtu.be/huDc_5hzRdM?si=0PkonlGtHIv-FY74"
-                github="https://youtu.be/huDc_5hzRdM?si=0PkonlGtHIv-FY74"
+                youtube="https://youtu.be/huDc_5hzRdM?si=0PkonlGtHIv-FY74"
               />
             </div>
           </div>
