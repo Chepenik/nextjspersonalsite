@@ -1,5 +1,5 @@
 import AnimatedText from "@/components/AnimatedText";
-import { GithubIcon, YoutubeIcon } from "@/components/Icons";
+import { YoutubeIcon } from "@/components/Icons";
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import Head from "next/head";
@@ -20,8 +20,9 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
     <article
       className="relative flex w-full items-center  justify-between rounded-3xl rounded-br-2xl border
-border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark  lg:flex-col 
-lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4 
+border-solid border-dark bg-light p-12 shadow-2xl  dark:border-light dark:bg-dark  
+lg:flex-col 
+lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
     "
     >
       <div
@@ -68,18 +69,18 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             href={github}
             target={"_blank"}
             className="w-10"
-            aria-label="Crypto Screener Application github link"
+            aria-label="Youtube Video Link"
           >
-            <GithubIcon />
+            <YoutubeIcon />
           </Link>
           <Link
             href={link}
             target={"_blank"}
             className="ml-4 rounded-lg
-             bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark 
+             bg-dark p-2 px-6 text-lg font-semibold text-light dark:bg-light dark:text-dark  
              sm:px-4 sm:text-base
             "
-            aria-label="Crypto Screener Application"
+            aria-label="Youtube Video Link"
           >
             Watch
           </Link>
@@ -93,8 +94,9 @@ const Project = ({ title, type, img, link, github }) => {
 
   return (
     <article
-      className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
-      border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark 
+      className="relative flex w-full flex-col items-center justify-center rounded-2xl  
+      rounded-br-2xl 
+      border  border-solid  border-dark bg-light p-6  shadow-2xl dark:border-light dark:bg-dark  
       xs:p-4
       "
     >
@@ -134,7 +136,7 @@ const Project = ({ title, type, img, link, github }) => {
             {title}
           </h2>
         </Link>
-        <div className="flex w-full items-center  justify-between">
+        <div className="flex w-full items-center justify-between">
           <Link
             href={link}
             target={"_blank"}
@@ -151,7 +153,7 @@ const Project = ({ title, type, img, link, github }) => {
             className="w-8 md:w-6"
             aria-label={title}
           >
-            <GithubIcon />
+            <YoutubeIcon /> 
           </Link>
         </div>
       </div>
@@ -166,8 +168,8 @@ export default function Projects() {
         <title>Projects</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
-        expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
+          content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with
+          expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
         />
       </Head>
 
@@ -188,7 +190,7 @@ export default function Projects() {
                 summary="In this conversation, we explore Slim's groundbreaking project that is revolutionizing the beef industry. Discover how technology is transforming beef production, challenge conventional thinking, and gain a deeper understanding of the significance of nutrition and food choices."
                 img={proj1}
                 link="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
-                github="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
+                github="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"  
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -213,7 +215,7 @@ export default function Projects() {
               <FeaturedProject
                 type="The Conor Chepenik Podcast"
                 title="The Power Of Subtraction"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                summary="In this episode, Conor & his guest delve into various intriguing topics, including foot health, the power of Bitcoin, unmasking pain, and the profound connection between health and money."
                 img={proj4}
                 link="https://youtu.be/FD5UME_fTHs"
                 github="https://youtu.be/FD5UME_fTHs"
@@ -233,8 +235,8 @@ export default function Projects() {
                 type="The Conor Chepenik Podcast"
                 img={proj6}
                 title="Nostr Paradigm Shift With Marks"
-                link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                link="https://youtu.be/huDc_5hzRdM?si=0PkonlGtHIv-FY74"
+                github="https://youtu.be/huDc_5hzRdM?si=0PkonlGtHIv-FY74"
               />
             </div>
           </div>
