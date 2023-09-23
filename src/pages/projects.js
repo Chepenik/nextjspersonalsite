@@ -7,10 +7,10 @@ import Image from "next/image";
 import Link from "next/link";
 import proj1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import proj2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
-import proj3 from "../../public/images/projects/fashion-studio-website.jpg";
+import proj3 from "../../public/images/projects/devdreaming.jpg";
 import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
 import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
-import proj6 from "../../public/images/projects/devdreaming.jpg";
+import proj6 from "../../public/images/projects/Marks.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
@@ -81,7 +81,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
             "
             aria-label="Crypto Screener Application"
           >
-            Visit Project
+            Watch
           </Link>
         </div>
       </div>
@@ -143,7 +143,7 @@ const Project = ({ title, type, img, link, github }) => {
             "
             aria-label={title}
           >
-            Visit
+            Watch
           </Link>
           <Link
             href={github}
@@ -185,54 +185,54 @@ export default function Projects() {
               <FeaturedProject
                 type="The Conor Chepenik Podcast"
                 title="An interview with Texas Slim"
-                summary="I sit down with Texas Slim from The Beef Initiative. In this captivating conversation, we explore Slim's groundbreaking project that is revolutionizing the beef industry. Discover how technology is transforming beef production, challenge conventional thinking, and gain a deeper understanding of the significance of nutrition and food choices."
+                summary="In this conversation, we explore Slim's groundbreaking project that is revolutionizing the beef industry. Discover how technology is transforming beef production, challenge conventional thinking, and gain a deeper understanding of the significance of nutrition and food choices."
                 img={proj1}
                 link="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                github="https://youtu.be/PT4yHzxq1oo?si=FvjE_tqRbca26kp3"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
+                type="Javascript Card Game From Your Terminal"
+                title="Big Hand Wins"
                 img={proj2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://youtu.be/ebh3489YPA0?si=WxiPj1-gHZXmkx0X"
+                github="https://youtu.be/ebh3489YPA0?si=WxiPj1-gHZXmkx0X"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type="First chepCodes Website"
+                title="Creating A Simple Next.js App"
                 img={proj3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://youtu.be/sCcSmJzEeMQ?si=6XMn-78XMEcDkZ9n"
+                github="https://youtu.be/sCcSmJzEeMQ?si=6XMn-78XMEcDkZ9n"
               />
             </div>
             <div className="col-span-12">
               <FeaturedProject
-                type="Portfolio Website"
-                title="React Portfolio Website"
+                type="The Conor Chepenik Podcast"
+                title="The Power Of Subtraction"
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://youtu.be/FD5UME_fTHs"
+                github="https://youtu.be/FD5UME_fTHs"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
+                type="A Chat With My Father"
                 img={proj5}
-                title="Agency Website Template"
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                title="Ancestral Knowledge"
+                link="https://youtu.be/HZPqlN1gjT8?si=QhtadbglSzZ77_vQ"
+                github="https://youtu.be/HZPqlN1gjT8?si=QhtadbglSzZ77_vQ"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Blog Website"
+                type="The Conor Chepenik Podcast"
                 img={proj6}
-                title="DevDreaming"
+                title="Nostr Paradigm Shift With Marks"
                 link="https://devdreaming.com"
                 github="https://github.com/codebucks27"
               />

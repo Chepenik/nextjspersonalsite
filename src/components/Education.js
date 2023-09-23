@@ -47,7 +47,7 @@ const Education = () => {
             type="Bachelor of Arts"
             time="2016-2020"
             place="Tufts University"
-            info="Studied Film & Media as well as Entrepreneurship. "
+            info="Studied Film & Media as well as Entrepreneurship. Played 4 years of Football as a Defensive Tackle."
           />
 
           <Details
