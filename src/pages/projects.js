@@ -10,7 +10,7 @@ import proj2 from "../../public/images/projects/bigHandWins.jpg";
 import proj3 from "../../public/images/projects/devdreaming.jpg";
 import proj4 from "../../public/images/projects/Caribou.jpg";
 import proj5 from "../../public/images/projects/Father.jpg";
-import proj6 from "../../public/images/projects/Marks.jpg";
+import proj6 from "../../public/images/projects/marks.jpg";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FramerImage = motion(Image);
