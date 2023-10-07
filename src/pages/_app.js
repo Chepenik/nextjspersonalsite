@@ -2,14 +2,9 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import "@/styles/globals.css";
 import { AnimatePresence } from "framer-motion";
-import dotenv from 'dotenv';
-dotenv.config();
-
-// pages/_app.js
 import { Montserrat } from "next/font/google";  
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Script from "next/script";
 
 // If loading a variable font, you don't need to specify the font weight
 const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-mont" });
@@ -20,20 +15,6 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Script
-        strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
-      />
-      <Script id="google-analytics-script" strategy="lazyOnload">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
-          page_path: window.location.pathname,
-          });
-    `}
-      </Script>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -46,7 +27,6 @@ export default function App({ Component, pageProps }) {
         </AnimatePresence>
         <Footer />
       </main>
-
     </>
   );
 }
