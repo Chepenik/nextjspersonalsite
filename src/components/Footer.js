@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         <Link
-          href="https://www.binmucker.com/"
+          href="/binmucker"
           target="_blank"
           className="underline underline-offset-2"
         >
