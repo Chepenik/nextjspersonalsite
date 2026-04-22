@@ -4,12 +4,8 @@ import Head from "next/head";
 import Image from "next/image";
 import blog1 from "../../public/images/articles/pagination component in reactjs.jpg";
 import blog2 from "../../public/images/articles/create loading screen in react js.jpg";
-import blog3 from "../../public/images/articles/bitcoinmagazine.png";
-import blog4 from "../../public/images/articles/bitcoinmagazine.png";
-import blog5 from "../../public/images/articles/bitcoinmagazine.png";
-import blog6 from "../../public/images/articles/bitcoinnews.png";
-import blog7 from "../../public/images/articles/bitcoinnews.png";
-import blog8 from "../../public/images/articles/bitcoinnews.png";
+import bitcoinMag from "../../public/images/articles/bitcoinmagazine.png";
+import bitcoinNews from "../../public/images/articles/bitcoinnews.png";
 
 import Layout from "@/components/Layout";
 import Link from "next/link";
@@ -39,6 +35,7 @@ const MovingImg = ({ title, img, link }) => {
       <Link
         href={link}
         target={"_blank"}
+        rel="noopener noreferrer"
         className="relative"
         onMouseMove={handleMouse}
         onMouseLeave={handleMouseLeave}
@@ -72,13 +69,13 @@ const Article = ({ img, title, date, link }) => {
       initial={{ y: 200 }}
       whileInView={{ y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       viewport={{ once: true }}
-      className="relative w-full p-4 py-6 my-2 rounded-xl flex sm:flex-col items-center justify-between 
+      className="relative w-full p-4 py-6 my-2 rounded-xl flex sm:flex-col items-center justify-between
       bg-light text-dark first:mt-0 border border-solid border-dark
       border-r-4 border-b-4 dark:bg-dark dark:border-light
       "
     >
       <MovingImg img={img} title={title} link={link} />
-      <span className="text-primary font-semibold dark:text-primaryDark min-w-max pl-4 sm:self-start 
+      <span className="text-primary font-semibold dark:text-primaryDark min-w-max pl-4 sm:self-start
       sm:pl-0 xs:text-sm">
         {date}
       </span>
@@ -88,15 +85,16 @@ const Article = ({ img, title, date, link }) => {
 
 const FeaturedArticle = ({ img, title, time, summary, link }) => {
   return (
-    <li className="relative w-full p-4 col-span-1 bg-light border border-dark border-solid rounded-2xl 
+    <li className="relative w-full p-4 col-span-1 bg-light border border-dark border-solid rounded-2xl
     dark:bg-dark dark:border-light">
       <div
-        className="absolute  top-0 -right-3 w-[102%] h-[103%] rounded-[2rem]  rounded-br-3xl bg-dark 
+        className="absolute  top-0 -right-3 w-[102%] h-[103%] rounded-[2rem]  rounded-br-3xl bg-dark
         -z-10  "
       />
       <Link
         href={link}
         target={"_blank"}
+        rel="noopener noreferrer"
         className="inline-block rounded-lg overflow-hidden w-full"
       >
         <FramerImage
@@ -110,7 +108,7 @@ const FeaturedArticle = ({ img, title, time, summary, link }) => {
         />
       </Link>
 
-      <Link href={link} target={"_blank"}>
+      <Link href={link} target={"_blank"} rel="noopener noreferrer">
         <h2 className="capitalize text-2xl font-bold my-2 mt-4 hover:underline xs:text-lg">
           {title}
         </h2>
@@ -127,8 +125,8 @@ export default function Articles() {
   return (
     <>
       <Head>
-        <title>Articles</title>
-        <meta name="description" content="Browse through my collection of Bitcoin & Nostr articles" />
+        <title>Articles | Conor Chepenik</title>
+        <meta name="description" content="Writing by Conor Chepenik — Bitcoin, freedom tech, and what happens when open-source money meets the real world. Published in Bitcoin Magazine, ZeroHedge, Bitcoinnews.com, Satoshi's Journal, and daily on Medium." />
       </Head>
       <TransitionEffect />
       <main
@@ -144,8 +142,8 @@ export default function Articles() {
             <FeaturedArticle
               img={blog1}
               title="My Online Auto-Biography"
-              time="a long read"
-              summary="I wanted to get better at writing so I simply decided to write everyday for the rest of my life :)"
+              time="1,600+ days and counting"
+              summary="I wanted to get better at writing, so I decided to write every single day for the rest of my life. These are the daily notes — half journal, half Bitcoin commentary."
               link="https://medium.com/@chepenikconor"
             />
 
@@ -153,7 +151,7 @@ export default function Articles() {
               img={blog2}
               title="Bitcoin Stops The Bleeding"
               time="7 min read"
-              summary=" A Sound Money System Is The Only Cure For What Ails Our Economy"
+              summary="A sound money system is the only cure for what ails our economy."
               link="https://www.zerohedge.com/crypto/bitcoin-stops-bleeding-sound-money-system-only-cure-what-ails-our-economy"
             />
           </ul>
@@ -164,39 +162,51 @@ export default function Articles() {
 
           <ul className="flex flex-col items-center relative">
             <Article
+              title="Inside Paraguay's Proposed Bitcoin Bill"
+              img={bitcoinMag}
+              date="Bitcoin Magazine"
+              link="https://bitcoinmagazine.com/business/paraguays-proposed-bitcoin-bill"
+            />
+            <Article
+              title="Bitcoin Prevents Doublethink"
+              img={bitcoinMag}
+              date="Bitcoin Magazine"
+              link="https://bitcoinmagazine.com/culture/bitcoin-prevents-doublethink"
+            />
+            <Article
               title="Bitcoin Aligns Incentives In The Perfect Way"
-              img={blog3}
+              img={bitcoinMag}
               date="Bitcoin Magazine"
               link="https://bitcoinmagazine.com/culture/bitcoin-aligns-incentives-in-the-perfect-way"
             />
             <Article
               title="Bitcoin Home Birth And Sovereignty"
-              img={blog4}
+              img={bitcoinMag}
               date="Bitcoin Magazine"
               link="https://bitcoinmagazine.com/culture/bitcoin-home-birth-and-sovereignty"
             />
             <Article
               title="Regulators Must Learn To Accept The New Tech"
-              img={blog5}
+              img={bitcoinMag}
               date="Bitcoin Magazine"
               link="https://bitcoinmagazine.com/culture/bitcoin-tax-attacks-are-regulatory-fear"
             />
             <Article
               title="Objectivism Meets Bitcoin"
-              img={blog6}
+              img={bitcoinNews}
               date="Bitcoin News"
               link="https://bitcoinnews.com/objectivism-meets-bitcoin/"
             />
             <Article
               title="The US Dollar Is A Ponzi Scheme"
-              img={blog7}
+              img={bitcoinNews}
               date="Bitcoin News"
               link="https://bitcoinnews.com/us-dolla-ponzi-scheme/"
             />
             <Article
               title="Nostr Protocol Lets Users Earn Bitcoin For Content"
               date="Bitcoin News"
-              img={blog8}
+              img={bitcoinNews}
               link="https://bitcoinnews.com/nostr-protocol-earn-bitcoin/"
             />
           </ul>
