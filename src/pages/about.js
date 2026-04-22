@@ -38,10 +38,8 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About</title>
-        <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
-        creating innovative solutions. Discover tips for building a developer portfolio and insights on 
-        full-stack development, front-end development, and back-end development." />
+        <title>About | Conor Chepenik</title>
+        <meta name="description" content="About Conor Chepenik — Bitcoin writer, developer, father, and author of The Bitcoin Coloring Book. Building on MassAdoption, Camp Nakamoto, and Mr. Nakamoto." />
       </Head>
       <TransitionEffect />
       <main
@@ -60,23 +58,13 @@ export default function About() {
                 BIOGRAPHY
               </h2>
               <p className="font-medium ">
-                Hi, I&apos;m <strong>Conor Chepenik</strong>, a web developer, writer, and
-                UX designer with a passion for creating beautiful,
-                functional, and user-centered digital experiences. With 3 years
-                of experience in the field, I&apos;m always looking for new and
-                innovative ways to improve my skills & bring my clients&apos; visions to life.
+                Hi, I&apos;m <strong>Conor Chepenik</strong> — a writer, developer, and Bitcoiner. I spend my days building freedom tech and my nights writing about it. I&apos;ve been publishing on Medium every single day since late 2021, and pieces of mine have run in Bitcoin Magazine, ZeroHedge, Bitcoinnews.com, Satoshi&apos;s Journal, and The Common Sense Movement.
               </p>
               <p className="my-4 font-medium">
-                I believe that design is about more than just making things look
-                pretty. It&apos;s about solving problems and creating
-                intuitive, enjoyable experiences for users.
+                On the building side I lead development at <strong>MassAdoption</strong>, help orchestrate <strong>Camp Nakamoto</strong>, and contribute to <strong>Mr. Nakamoto</strong>, our Bitcoin-focused LLM. In 2025 I shipped <strong>The Bitcoin Coloring Book</strong> so the next generation grows up with sound money — you can grab it on Amazon or download the free PDF at bitcoincoloring.com.
               </p>
               <p className="font-medium">
-                Whether I&apos;m working on a website, mobile app, or other
-                digital product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                Former D3 football player at Tufts, current father, lifelong student. If you want to work together, talk Bitcoin, or compare notes on raising kids in the fiat collapse, reach out.
               </p>
             </div>
             <div className="relative col-span-3 h-max rounded-2xl border-2 border-solid border-dark 
@@ -91,7 +79,7 @@ export default function About() {
               <Image
                 className="h-auto w-full rounded-2xl"
                 src={profile}
-                alt="Codebucks"
+                alt="Conor Chepenik"
                 sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,
               33vw"
@@ -102,9 +90,9 @@ export default function About() {
             xl:items-center md:order-3">
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={100} />+
+                  <AnimatedNumberFramerMotion value={150} />+
                 </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Articles published
                 </h2>
@@ -112,9 +100,9 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={850} />+
+                  <AnimatedNumberFramerMotion value={1600} />+
                 </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   days of writing on Medium
                 </h2>
@@ -122,11 +110,11 @@ export default function About() {
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumberFramerMotion value={3} />+
+                  <AnimatedNumberFramerMotion value={4} />+
                 </span>
-                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75 
+                <h2 className="mb-4 text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm">
-                  Years of software experience 
+                  Years of software experience
                 </h2>
               </div>
             </div>

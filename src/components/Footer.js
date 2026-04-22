@@ -17,6 +17,7 @@ const Footer = () => {
           <Link
             href="https://www.youtube.com/@chepCodes"
             target="_blank"
+            rel="noopener noreferrer"
             className="underline underline-offset-2"
           >
             chepCodes
@@ -26,6 +27,7 @@ const Footer = () => {
         <Link
           href="/binmucker"
           target="_blank"
+          rel="noopener noreferrer"
           className="underline underline-offset-2"
         >
           Like Memes & Mucking Bin?
