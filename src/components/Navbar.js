@@ -99,31 +99,34 @@ const Navbar = () => {
       >
         <motion.a
           target={"_blank"}
+          rel="noopener noreferrer"
           className="w-6 mr-3"
-          href="https://twitter.com/ConorChepenik"
+          href="https://x.com/ConorChepenik"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my twitter profile"
+          aria-label="Conor Chepenik on X (Twitter)"
         >
           <TwitterIcon />
         </motion.a>
         <motion.a
           target={"_blank"}
+          rel="noopener noreferrer"
           className="w-6 mx-3"
           href="https://github.com/Chepenik"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my github profile"
+          aria-label="Conor Chepenik on GitHub"
         >
           <GithubIcon />
         </motion.a>
         <motion.a
           target={"_blank"}
+          rel="noopener noreferrer"
           className="w-6 mx-3"
           href="https://www.linkedin.com/in/conorchepenik/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my linkedin profile"
+          aria-label="Conor Chepenik on LinkedIn"
         >
           <LinkedInIcon />
         </motion.a>
@@ -165,31 +168,34 @@ const Navbar = () => {
       >
         <motion.a
           target={"_blank"}
+          rel="noopener noreferrer"
           className="w-6 m-1 mr-3 sm:mx-1"
-          href="https://twitter.com/ConorChepenik"
+          href="https://x.com/ConorChepenik"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my twitter profile"
+          aria-label="Conor Chepenik on X (Twitter)"
         >
           <TwitterIcon />
         </motion.a>
         <motion.a
           target={"_blank"}
+          rel="noopener noreferrer"
           className="w-6 m-1 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
           href="https://github.com/Chepenik"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my github profile"
+          aria-label="Conor Chepenik on GitHub"
         >
           <GithubIcon />
         </motion.a>
         <motion.a
           target={"_blank"}
+          rel="noopener noreferrer"
           className="w-6 m-1 mx-3 sm:mx-1"
           href="https://www.linkedin.com/in/conorchepenik/"
           whileHover={{ y: -2 }}
           whileTap={{ scale: 0.9 }}
-          aria-label="Checkout my linkedin profile"
+          aria-label="Conor Chepenik on LinkedIn"
         >
           <LinkedInIcon />
         </motion.a>

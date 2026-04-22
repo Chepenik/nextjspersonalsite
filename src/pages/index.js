@@ -18,10 +18,12 @@ export default function Home() {
         <title>Conor Chepenik</title>
         <meta
           name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
+          content="Conor Chepenik — Bitcoin writer, developer, and author of The Bitcoin Coloring Book. Building tools and content that make freedom tech accessible."
         />
+        <meta property="og:title" content="Conor Chepenik" />
+        <meta property="og:description" content="Father, Bitcoiner, Developer & Writer." />
+        <meta name="twitter:title" content="Conor Chepenik" />
+        <meta name="twitter:description" content="Father, Bitcoiner, Developer & Writer." />
       </Head>
 
       <TransitionEffect />
@@ -33,7 +35,7 @@ export default function Home() {
             <div className="w-1/2 lg:hidden md:inline-block md:w-full">
               <Image
                 src={profilePic}
-                alt="CodeBucks"
+                alt="Conor Chepenik"
                 className="h-auto w-full"
                 sizes="100vw"
                 priority
@@ -45,14 +47,12 @@ export default function Home() {
                 className="!text-left !text-6xl xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:!text-xs">
-              I enjoy wearing different hats. My true passion lies in taking cool ideas and turning them into awesome web applications. When I&apos;m not working I enjoy spending time with my family, running, and reading great books.</p>
+              I enjoy wearing different hats. These days I&apos;m building with Bitcoin and Nostr, writing daily, and shipping The Bitcoin Coloring Book so the next generation grows up with sound money. When I&apos;m not working I&apos;m with my family, running, or deep in a great book.</p>
               <div className="mt-2 flex items-center self-start lg:self-center">
                 <Link
-                  // whileHover={{
-                  //   cursor: `url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewport='0 0 100 100' style='font-size:24px;'><text y='50%'>👆</text></svg>"), auto`,
-                  // }}
-                  href="/Conor Chepenik Resume 2024.pdf"
+                  href="/resume.pdf"
                   target={"_blank"}
+                  rel="noopener noreferrer"
                   className={`flex items-center rounded-lg border-2 border-solid bg-dark p-2.5 px-6 text-lg font-semibold
             capitalize text-light hover:border-dark hover:bg-transparent hover:text-dark 
             dark:bg-light dark:text-dark dark:hover:border-light dark:hover:bg-dark dark:hover:text-light
@@ -80,7 +80,8 @@ export default function Home() {
           <Image
             className="relative h-auto w-full"
             src={lightBulb}
-            alt="chepCodes"
+            alt=""
+            aria-hidden="true"
           />
         </div>
       </article>
