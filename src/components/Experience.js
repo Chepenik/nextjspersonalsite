@@ -90,9 +90,9 @@ const Experience = () => {
             position="Bitcoin Adoption Specialist"
             company="Swan Bitcoin"
             companyLink="https://www.swanbitcoin.com/"
-            time="Jan 2024 - July 2024"
-            address="Jacksonville, FL (Remote)"
-            work="Supported thousands of Swan customers monthly across Zendesk, Zoom, email, and phone. Ran biweekly customer webinars that lifted engagement and reduced ticket volume. Fed product feedback to Risk, Engineering, and Ops; triaged and escalated complex issues. Top performer on the Client Services team until company-wide layoffs."
+            time="Jan 2024 - Present"
+            address="Remote"
+            work="Client services expert helping thousands of Swan customers monthly across Zendesk, Zoom, email, and phone. Run customer webinars that lift engagement and reduce ticket volume. Feed product feedback to Risk, Engineering, and Ops; triage and escalate complex issues. Spend my days explaining why money is a winner-take-all market and guiding people on how to leverage Swan to stack sound money."
           />
 
           <Details
